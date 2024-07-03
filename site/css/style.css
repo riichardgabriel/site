@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+header{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 90%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img{
+    position: realtive;
+    width: 100px;
+}
+
+header .menu ul{
+    position: relative;
+    display: flex;
+}
+
+header .menu li{
+    list-style: none;
+}
+
+header .menu li a{
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+img{
+    max-width: 100vw;
+}
+
+section.home{
+    background-image: url(../img/banner.jpg)!important;
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+section .sobre{
+    text-align: center;
+    color: 000;
+    text-decoration: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+section .sobre span{
+    color: var(--main-color);
+    text-decoration: uppercase;
+}
+
+section .sobre .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+section .sobre .row .image{
+    flex:1 1 45rem;
+}
+
+section .sobre .row .image img{
+    width: 0%;
+}
+
+section .sobre .row .textot{
+    flex:1 1 45rem;
+    padding: 2rem;
+}
+
+section .sobre .row .texto h3{
+    font-size: 9rem;
+    color: tomato;
+}
+
+section .sobre .row .texto p{
+    font-size: 1.6rem;
+    color: blueviolet;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.carrossel-container {
+    width: 80%; /* largura do container */
+    margin: 0 auto; /* centralizar o container */
+    overflow: hidden; /* ocultar conteúdo que exceder a largura */
+    position: relative; /* posição relativa para os botões de navegação */
+}
+
+.carrossel {
+    display: flex; /* exibir os produtos em linha */
+    transition: transform 0.5s ease; /* transição suave entre os slides */
+}
+
+.produto {
+    flex: 0 0 auto; /* impedir que os produtos sejam redimensionados */
+    width: 300px; /* largura de cada produto */
+    margin: 0 10px; /* margem entre os produtos */
+    text-align: center; /* centralizar texto */
+}
+
+button {
+    position: absolute; /* posicionamento absoluto em relação ao container */
+    top: 50%; /* alinhar verticalmente ao meio */
+    transform: translateY(-50%); /* ajustar para o centro vertical */
+    background-color: #007bff; /* cor de fundo dos botões */
+    color: white; /* cor do texto dos botões */
+    border: none; /* remover borda */
+    padding: 10px 20px; /* preenchimento interno */
+    cursor: pointer; /* cursor de ponteiro ao passar */
+}
+
+button:hover {
+    background-color: #0056b3; /* cor de fundo ao passar */
+}
