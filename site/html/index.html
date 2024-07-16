@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Site</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/slide.css">
     <link rel="stylesheet" href="../css/login.css">
-    <script src="script.js" defer></script>
+    
 </head>
 
 <body>
@@ -34,74 +36,111 @@
              "Prevenir é melhor do que restaurar !!!"
         </section>
 
-        <section class="Sobre" id="sobre">
-            <h1 class="about"><span>Sobre à PC Prevenido</span></h1>
+        <section class="topo-do-site">
+          <div class="interface">
+            <div class="flex">
+              <div class="txt-topo-site">
+                
+                <h1>Sobre Nós</h1>
 
-            <div class="row">
+                <p>Bem-vindo à PC PREVENIDO, uma empresa inovadora no mundo da tecnologia que está comprometida em
+                  transformar o presente e moldar o futuro.
+                  <br> <br>
+                  Essa empresa nasceu da paixão por soluções tecnológicas de ponta e da visão de tornar a vida das
+                  pessoas menos estressante e conectada.
+                  <br> <br>
+                  Destacamo-nos pela nossa paixão pela excelência, compromisso com a evolução constante e busca incessante pela satisfação total dos clientes. 
+                  <br> <br>
+                  Possuímos os melhores equipamentos do mercado e contamos com uma equipe de especialistas apaixonados e talentosos.
+                  <br> <br>
+                  Trabalhamos incansavelmente para oferecer uma manutenção preventiva de alta qualidade para você, deixando a sua máquina como nova.
+                </p>
+              </div>
 
-                <div class="image">
-                    <img src="../img/sobre.avif" alt="">
-                </div>
+                <div class="btn-contato">
+                  <a href="#">
+                    <button>Entre em Contato</button>
+                  </a>
+              </div>
 
-                <div class="texto">
-                    
-                    <p> Bem-vindo à PC PREVENIDO, uma empresa inovadora no mundo da tecnologia que está comprometida em
-                        transformar o presente e moldar o futuro.
-                        <br> <br>
-
-                        Essa empresa nasceu da paixão por soluções tecnológicas de ponta e da visão de tornar a vida das
-                        pessoas menos estressante e conectada.</p>
-
-                    <p>Destacamo-nos pela nossa paixão pela excelência, compromisso com a evolução constante e busca incessante pela satisfação total dos clientes. 
-                            <br> <br>
-                        Possuímos os melhores equipamentos do mercado e contamos com uma equipe de especialistas apaixonados e talentosos.
-                            <br> <br>
-                        Trabalhamos incansavelmente para oferecer uma manutenção preventiva de alta qualidade para você, deixando a sua máquina como nova.
-                    </p>
-                </div>
-
-        </section>
-
-        <div class="carrossel-container">
-            <div class="carrossel">
-
-                <div class="produto">
-                    <img src="../img/manutancao.jpg" alt="Produto 1">
-                    <h3>Manutenção preventiva</h3>
-                    <p>Descrição do Produto 1</p>
-                </div>
-
-                <div class="produto">
-                    <img src="../img/formatacao.webp" alt="Produto 2">
-                    <h3>Formatação</h3>
-                    <p>Descrição do Produto 2</p>
-                </div>
-
-                <div class="produto">
-                    <img src="../img/montarpc.jpg" alt="Produto 3">
-                    <h3>Montando PC</h3>
-                    <p>Descrição do Produto 1</p>
-                </div>
-
-                <div class="produto">
-                    <img src="../img/instalacao.webp" alt="Produto 4">
-                    <h3>Instalação de programas</h3>
-                    <p>Descrição do Produto 2</p>
-                </div>
-
-                <div class="produto">
-                    <img src="../img/conserto.jpg" alt="Produto 5">
-                    <h3>Conserto</h3>
-                    <p>Descrição do Produto 2</p>
-                </div>
-                <!-- Adicione mais produtos conforme necessário -->
+              <div class="img-topo-site">
+                <img src="../img/fundo_sobre.png" alt="">
+              </div>
             </div>
-            <button id="prevBtn">Anterior</button>
-            <button id="nextBtn">Próximo</button>
-        </div>
-        
-
+          </div>
+        </section>
     </main>
 
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="manutencao.html">
+          <img src="../img/manutencaotop.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block"></a>
+            <h5>Manutenção Preventiva</h5>
+            <p>Clique aqui para saber todos os detalhes deste serviço.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="instalacao.html">
+          <img src="../img/instalacaotop.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block"></a>
+            <h5>Instalação</h5>
+            <p>Clique aqui para saber todos os detalhes deste serviço.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="montarpc.html">
+          <img src="../img/montagemtop.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block"></a>
+            <h5>Montagem</h5>
+            <p>Clique aqui para saber todos os detalhes deste serviço.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="formatacao.html">
+          <img src="../img/formatacaotop.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block"></a>
+            <h5>Formatação</h5>
+            <p>Clique aqui para saber todos os detalhes deste serviço.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="conserto.html">
+          <img src="../img/consertotop.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block"></a>
+            <h5>Conserto e Reparos</h5>
+            <p>Clique aqui para saber todos os detalhes deste serviço.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </html>

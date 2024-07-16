@@ -12,7 +12,7 @@ header{
 }
 
 header .logo img{
-    position: realtive;
+    position: relative;
     width: 100px;
 }
 
@@ -39,7 +39,7 @@ img{
 }
 
 section.home{
-    background-image: url(../img/banner.jpg)!important;
+    background-image: url(../img/bannersite.jpg)!important;
     width: 100vw;
     height: 70vh;
     background-size: cover;
@@ -95,36 +95,36 @@ section .sobre .row .texto p{
     line-height: 1.8;
 }
 
-.carrossel-container {
-    width: 80%; /* largura do container */
-    margin: 0 auto; /* centralizar o container */
-    overflow: hidden; /* ocultar conteúdo que exceder a largura */
-    position: relative; /* posição relativa para os botões de navegação */
+section.topo-do-site{
+    padding: 40px 4%;
 }
 
-.carrossel {
-    display: flex; /* exibir os produtos em linha */
-    transition: transform 0.5s ease; /* transição suave entre os slides */
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
 }
 
-.produto {
-    flex: 0 0 auto; /* impedir que os produtos sejam redimensionados */
-    width: 300px; /* largura de cada produto */
-    margin: 0 10px; /* margem entre os produtos */
-    text-align: center; /* centralizar texto */
+.img-topo-site img{
+    position: absolute;
+    background-size: cover;
+    width: 250px;
+    height: auto;
+    top: 90%;
+    right: 5%;
+
 }
 
-button {
-    position: absolute; /* posicionamento absoluto em relação ao container */
-    top: 50%; /* alinhar verticalmente ao meio */
-    transform: translateY(-50%); /* ajustar para o centro vertical */
-    background-color: #007bff; /* cor de fundo dos botões */
-    color: white; /* cor do texto dos botões */
-    border: none; /* remover borda */
-    padding: 10px 20px; /* preenchimento interno */
-    cursor: pointer; /* cursor de ponteiro ao passar */
+.home{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
 }
 
-button:hover {
-    background-color: #0056b3; /* cor de fundo ao passar */
+.btn-contato{
+    text-align: left;
+    justify-content: left;
+    display: flex;
 }
