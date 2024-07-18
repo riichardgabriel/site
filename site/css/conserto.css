@@ -1,0 +1,20 @@
+section.produto1{
+    padding: 40px 4%;
+}
+
+section .produto1 .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.produto1 .txt-produto{
+    color: #000;
+}
+
+h2{
+    text-align: center;
+}
+
+.flex{
+    display: flex ;
+}
