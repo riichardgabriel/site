@@ -222,3 +222,60 @@ h3{
     max-width: 600px;
 }
 
+/* estilo do formulário */
+section.formulario{
+    padding: 80px 4%;
+}
+
+.formulario .titulo h2{
+    text-align: center;
+    display: flex;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #000;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+}
+
+/* botão whatsapp */
+.whats{
+    position: fixed;
+    bottom: 10px;
+    right: 3    0px;
+    z-index: 9999;
+}

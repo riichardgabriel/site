@@ -26,10 +26,11 @@ footer a:hover{
     transition: color 0.3s;
 }
 
-.footer-bottom{
+.footer-bottom p{
+    width: 100vw;
     text-align: center;
     padding: 20px 0;
-    border-top: 1px solid #ccc;
+    border: 1px solid #000;
     margin-top: 20px;
 }
 

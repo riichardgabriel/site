@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>Site</title>
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/slide.css">
   <link rel="stylesheet" href="../css/login.css">
 </head>
@@ -199,7 +199,8 @@
     </details>
 
     <details>
-      <summary>QUAL A DIFERENÇA DA MANUTENÇÃO PREVENTIVA PARA MANUTENÇÃO CORRETIVA ?<i class="bi bi-caret-down-fill"></i></summary>
+      <summary>QUAL A DIFERENÇA DA MANUTENÇÃO PREVENTIVA PARA MANUTENÇÃO CORRETIVA ?<i
+          class="bi bi-caret-down-fill"></i></summary>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
         a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -264,82 +265,83 @@
       </p>
     </details>
   </section>
-  <br> <br>
+  
 
   <!-- entre em contato -->
-   <section>
-    <h2>Entre em contato conosco</h2>
-    <form action="https://api.staticforms.xyz/submit" method="post">
-      <label>Nome</label>
-      <input type="text" name="name" placeholder="Digite seu nome">
+  <section class="formulario">
+    <div class="interface">
+      <form action="">
+        <h2 class="titulo">Fale Conosco</h2>
+        <input type="text" name="" id="" placeholder="Digite seu nome" required>
+        <input type="email" name="" id="" placeholder="Digite seu email" required>
+        <input type="tel" name="" id="" placeholder="(xx) xxxxx-xxxx">
+        <textarea name="" id="" placeholder="Deixe sua mensagem" required></textarea>
+        <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
 
-      <label>Email</label>
-      <input type="email" name="email" placeholder="Digite seu email">
+      </form>
+    </div>
+  </section>
 
-      <label>Mensagem</label>
-      <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-
-      <button type="submit">Enviar</button>
-
-      <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
-    </form>
-   </section>
+  <div class="whats">
+    <a href="https://wa.me/551130042222" target="_blank">
+      <img src="../img/whatsapp.png" width="75px" alt="Fale Conosco pelo whatsapp" title="Fale Conosco pelo whatsapp">
+    </a>
+  </div>
 
 
- <!-- rodapé  -->
+  <!-- rodapé  -->
   <footer>
-    <main class="container">
-        <div class="row">
-            <div class="col -md-3">
-                <h5>HOME</h5>
-                <ul class="list-unstyled mt-3">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./index.html#produtos">Serviços</a></li>
-                    <li><a href="./sobre.html">Resultados</a></li>
-                    <li><a href="./sobre.html">Dúvidas<a></li>
-                    <li><a href="./sobre.html">Contato</a></li>
-                </ul>
-            </div>
+    <div class="row">
+      <div class="col -md-3">
+        <ul class="list-unstyled mt-3">
+          <h5>HOME</h5>
+          <li><a href="../html/index.html">Home</a></li>
+          <li><a href="./index.html#produtos">Serviços</a></li>
+          <li><a href="./sobre.html">Resultados</a></li>
+          <li><a href="./sobre.html">Dúvidas<a></li>
+          <li><a href="./sobre.html">Contato</a></li>
+        </ul>
+      </div>
 
-            <div class="col -md-3">
-                <h5>Sobre nós</h5>
-                <ul class="list-unstyled mt-3">
-                    <li><a href="./index.html">Sobre</a></li>
-                    <li><a href="./contato.php">Contato</a></li>
-                </ul>
-            </div>
+      <div class="col -md-3">
+        <ul class="list-unstyled mt-3">
+          <h5>Sobre nós</h5>
+          <li><a href="./index.html">Sobre</a></li>
+          <li><a href="./contato.php">Contato</a></li>
+        </ul>
+      </div>
 
-            <div class="col -md-3">
-                <h5>Descubra mais</h5>
-                <ul class="list-unstyled mt-3">
-                    <li><a href="./index.html">Carrinho</a></li>
-                    <li><a href="./index.html#produtos">Produto</a></li>
-                    <li><a href="./index.html">Novidades</a></li>
-                </ul>
-            </div>
+      <div class="col -md-3">
+        <ul class="list-unstyled mt-3">
+          <h5>Descubra mais</h5>
+          <li><a href="./index.html">Carrinho</a></li>
+          <li><a href="./index.html#produtos">Produto</a></li>
+          <li><a href="./index.html">Novidades</a></li>
+        </ul>
+      </div>
 
-            <div class="col -md-3">
-                <div class="social-icons mt-3">
-                    <a href="#"><i class="bi bi-youtube"></i></a>
-                    <a href="#"><i class="bi bi-whatsapp"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                </div>
-            </div>
+      <div class="col -md-3">
+        <div class="social-icons mt-3">
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
         </div>
+      </div>
+    </div>
 
-        <div class="footer-bottom">
-            <p>
-                &copy;2024. Este site foi desenvolvido junto com a turma de TI21 - SENAC Americana.<br> Não
-                reservamos os direitos e valores apresentados são meramentes ilustrativos para fins educacionais.
-            </p>
-        </div>
-    </main>
+    <div class="footer-bottom">
+      <hr>
+      <p>
+        &copy;2024. Este site foi desenvolvido junto com a turma de TI21 - SENAC Americana.<br> Não
+        reservamos os direitos e valores apresentados são meramentes ilustrativos para fins educacionais.
+      </p>
+    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
