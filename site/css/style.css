@@ -201,7 +201,7 @@ h3{
 }
 
 #duvidas details summary{
-    background-color: tomato;
+    background-color: black;
     padding: 2%;
     border-bottom: 2px solid aqua;
     color: #fff;
@@ -213,7 +213,7 @@ h3{
 }
 
 #duvidas details p{
-    background-color: yellow;
+    background-color: aqua;
     justify-content: center;
     text-align: center;
 }
