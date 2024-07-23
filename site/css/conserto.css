@@ -25,17 +25,18 @@
     border-radius: 10px;
 }
 
-.thumbnails{
+/* .thumbnails{
     display: flex;
     justify-content: space-evenly;
     max-width: 400px;
     gap: 10px;
-}
+} */
 
-.thumbnail img{
+/* .thumbnail img{
+
     width: 100%;
     border-radius: 10px;
-}
+} */
 
 .right-side{
     width: 100%;

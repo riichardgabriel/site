@@ -13,7 +13,8 @@
 }
 
 .items{
-    align-items: flex-end;
+    align-items: center;
+    text-align: center;
 }
 
 .select-image{
@@ -24,7 +25,7 @@
     width: 100%;
     border-radius: 10px;
 }
-
+/* 
 .thumbnails{
     display: flex;
     justify-content: space-evenly;
@@ -35,7 +36,7 @@
 .thumbnail img{
     width: 100%;
     border-radius: 10px;
-}
+} */
 
 .right-side{
     width: 100%;

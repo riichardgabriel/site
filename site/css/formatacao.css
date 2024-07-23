@@ -13,7 +13,8 @@
 }
 
 .items{
-    align-items: flex-end;
+    align-items: center;
+    text-align: center;
 }
 
 .select-image{
