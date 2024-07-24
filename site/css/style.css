@@ -11,6 +11,12 @@ header{
     justify-content: space-between;
 }
 
+/* header .logo p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+
 header .logo img{
     border-radius: 50%;
     position: relative;
@@ -86,12 +92,10 @@ section .sobre .row .textot{
 
 section .sobre .row .texto h3{
     font-size: 9rem;
-    color: tomato;
 }
 
 section .sobre .row .texto p{
     font-size: 1.6rem;
-    color: blueviolet;
     padding: 1rem 0;
     line-height: 1.8;
 }

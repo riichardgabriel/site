@@ -6,7 +6,7 @@ footer{
 
 footer h5{
     font-weight: bold;
-    color: orange;
+    color: aqua;
 }
 
 footer a{
@@ -16,7 +16,7 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
-    color: orange;
+    color: aqua;
 }
 
 .social-icons a{
